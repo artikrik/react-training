@@ -11,6 +11,7 @@ var App = React.createClass({
     var taco = this.refs.favoriteTaco.getDOMNode().value;
     this.setState({
       taco: taco,
+      hjgh
       showForm: false
     });
   },

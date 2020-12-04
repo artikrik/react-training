@@ -8,6 +8,7 @@ var App = React.createClass({
 
   handleTacoSubmission: function(event) {
     event.preventDefault();
+    event.preventDefault();
     var taco = this.refs.favoriteTaco.getDOMNode().value;
     this.setState({
       taco: taco,
